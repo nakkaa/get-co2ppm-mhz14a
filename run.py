@@ -20,7 +20,7 @@ class Sensor():
         time.sleep(1)
 
     def do_zero_calibration(self):
-        #self.serial.write(bytearray(Sensor.ZERO))
+        self.serial.write(bytearray(Sensor.ZERO))
         return {                                                                                                                                                                                                                                                                                                           
             "ppm": 0,                                                                                                                                                                                                                                                                                
             "msg": "Done zero calibration",                                                                                                                                                                                                                                                                                           
