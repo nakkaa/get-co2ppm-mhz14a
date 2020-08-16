@@ -1,6 +1,8 @@
 # Get CO2ppm MHZ-14A
 
-Get CO2 ppm value from MH-Z14A on Raspbbery Pi.
+Get CO2 ppm value from MH-Z14A on Raspbbery Pi.  
+
+Raspberry Pi上で動作するCO2センサ MH-Z14A からCO2濃度を取得するスクリプト。
 
 ## Installation
 
@@ -8,6 +10,12 @@ If you don't install pipenv. Run this command.
 
 ```sh
 pip install pipenv
+```
+
+Run `pipenv install`.
+
+```sh
+pipenv install
 ```
 
 Open `run.py` and update `DEV_PATH` (device path).
